@@ -19,18 +19,18 @@
     </main>
     <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="alura-logo" alt=""><br><br>
     <div class= "container">
-        <div class="texto">
+        <div id="text" class="texto">
             <h3>Esta é a sinopse do seu filme:</h3>
             <p id = sinopse></p>
         </div>
         <div id="imagem" class="imagem">
-            <p><strong>Estamos esperando você escolher seu filme...</strong></p>
+            <p id="imageText">Estamos esperando você escolher seu filme...</p>
         </div>
     </div>
     <div class="options">
         <select id="options" name="options" onchange="changeBackground()">
             <option value="harryPotter">Harry Potter</option>
-            <option value="madrugadaDosMortos" selected>Madrugada dos Mortos</option>
+            <option value="madrugadaDosMortos" selected>Noite dos Mortos-vivos</option>
             <option value="senhorDosAneis">Senhor dos Anéis</option>
         </select>
         <button onclick="getMovie()">Escolher o filme</button>
