@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Monoton&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/harry-potter" rel="stylesheet">
+    <title>MovieFlix</title>
+</head>
+<body>
+    <main>
+        <p class= "page-title">MovieFlix</p>
+        <p class= "page-subtitle"> O seu site para pesquisar sobre filmes!</p>
+    </main>
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="alura-logo" alt=""><br><br>
+    <div class= "container">
+        <div class="texto">
+            <h3>Esta é a sinopse do seu filme:</h3>
+            <p id = sinopse></p>
+        </div>
+        <div id="imagem" class="imagem">
+            <p><strong>Estamos esperando você escolher seu filme...</strong></p>
+        </div>
+    </div>
+    <div class="options">
+        <select id="options" name="options" onchange="changeBackground()">
+            <option value="harryPotter">Harry Potter</option>
+            <option value="madrugadaDosMortos" selected>Madrugada dos Mortos</option>
+            <option value="senhorDosAneis">Senhor dos Anéis</option>
+        </select>
+        <button onclick="getMovie()">Escolher o filme</button>
+    </div>
+    
+    
+    <script src="script.js">
+    </script>
+</body>

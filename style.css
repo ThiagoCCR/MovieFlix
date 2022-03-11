@@ -1,0 +1,81 @@
+html{
+    background-color: black;
+}
+body{
+    background: black;
+    min-height: 600px;
+    background-image: url("https://business.time.com/wp-content/uploads/sites/2/2012/07/200429986-001-e13427097726641.jpg?w=720&h=480&crop=1");
+    background-size: 70vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+main{
+    text-align: center;
+    color: red;
+    font-family: 'Monoton', cursive;
+    background-color: black;
+    font-size: 50px;
+}
+.page-title{
+    padding: 0;
+    margin-bottom: 0;
+}
+.page-subtitle{
+    font-family:'Roboto', sans-serif;
+    color: white;
+    font-size: 20px;
+    background-color: black;
+    padding-bottom: 10px;
+    padding-top: 0px;
+}
+.alura-logo {
+    width: 100px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.imagem{
+    background-color:black;
+    width: 450px;
+    height: 550px;
+    border-radius: 20px;
+    align-items: center;
+    background-image: url("https://1.bp.blogspot.com/-DUtCFrtAjqE/UxD3sJuTSLI/AAAAAAAAFoo/eeHNGOrLkDY/s1600/charlie-chaplin.jpg");
+    background-size: 70vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family:'Roboto', sans-serif;
+}
+.texto{
+    background-color:black;
+    width: 450px;
+    height: 550px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    text-align: center;
+    font-family:'Roboto', sans-serif;
+    color: white;
+    text-align: center;
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    margin: 10px;
+}
+button{
+    border-radius: 20px;
+    height: 30px;
+    width: 200px;
+}
+@import url("http://fonts.cdnfonts.com/css/harry-potter%27");
